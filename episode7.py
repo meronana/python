@@ -47,6 +47,31 @@ y.append('Apples')
 print(f'Original:{x}')
 print(f'New:{y}')
 
+#Delete the whole thing
+del y
+#print(y) #y doesn't exist now
+
+#Clearing elements
+x.clear() #no elements in it
+print(f'Cleared: {x}') 
+print(f'Len: {len(x)}')
+
+#Lists can contain other lists [[],[],[]]
+x = []
+y = [1,2,3]
+z = ['Bryan', 'Cairns']
+x.append(y)
+x.insert(0,z)
+
+print(f'List: {x}') 
+print(f'Len: {len(x)}')
+print(f'0:{x[0][0]}') 
+print(f'1:{x[1][1]}') 
+
+#changing items - positional
+x = [1,2,3,4,5]
+x[2] = 'TEST'
+print(x)
 
 
 
