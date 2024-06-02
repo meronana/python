@@ -37,7 +37,7 @@ f.seek(0) #right pack to [0]
 print('------------------------------------')
 for l in f.readlines():
     print(l.strip()) #remove extra space 
-
+    print(l)
 #Close the file
 #Allows other applications to work with it
 f.close()
