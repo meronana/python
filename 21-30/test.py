@@ -7,5 +7,5 @@ print(f'File: {__file__}')
 
 #name has become episode28
 
-code.test()
+code.main()
 
